@@ -276,6 +276,11 @@ section{
 /* ---------------------- BreakPoints ---------------------- */
 
 @media (max-width: 455px){
+
+  #projets{
+    width: 90%;
+  }
+
   .logo{
     width: 100vw;
   }

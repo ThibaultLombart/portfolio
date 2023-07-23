@@ -31,7 +31,10 @@ const observerHeader = new IntersectionObserver((entries) => {
 const hiddenHeader = document.querySelectorAll('.check');
 hiddenHeader.forEach((e2) => observerHeader.observe(e2)); */
 
-const buttons = document.querySelectorAll('.special-button');
+
+// -------------------- PROJETS -------------------- //
+
+const buttons = document.querySelectorAll('.projet');
 const all = document.querySelectorAll('.case');
 const java = document.querySelectorAll('.java');
 const web = document.querySelectorAll('.web');
@@ -42,7 +45,7 @@ const personnel = document.querySelectorAll('.personnel');
 const termine = document.querySelectorAll('.termine');
 const encours = document.querySelectorAll('.encours');
 
-function testClick(element){
+function ClickProjet(element){
     buttons.forEach((but) => {
         console.log(but)
         but.classList.remove('clicked');

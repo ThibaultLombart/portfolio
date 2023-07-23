@@ -40,44 +40,44 @@
     <section id="projets">
         <h2>Mes Projets</h2>
         <article class="selection">
-            <button class="special-button clicked" onclick="testClick(this);">
+            <button class="special-button projet clicked" onclick="ClickProjet(this);">
                 Tout
             </button>
 
-            <button class="special-button" onclick="testClick(this);">
+            <button class="special-button projet" onclick="ClickProjet(this);">
                 <img src="./resources/personnelBlanc.png" alt="logo maison personnel">
                 Personnel
             </button>
 
-            <button class="special-button" onclick="testClick(this);">
+            <button class="special-button projet" onclick="ClickProjet(this);">
                 <img src="./resources/scolaireBlanc.png" alt="logo livre Scolaire">
                 Scolaire
             </button>
 
-            <button class="special-button" onclick="testClick(this);">
+            <button class="special-button projet" onclick="ClickProjet(this);">
                 <img src="./resources/javaBlanc.png" alt="logo java">
                 Java
             </button>
-            <button class="special-button" onclick="testClick(this);">
+            <button class="special-button projet" onclick="ClickProjet(this);">
                 <img src="./resources/pythonBlanc.png" alt="logo python">
                 Python
             </button>
 
-            <button class="special-button" onclick="testClick(this);">
+            <button class="special-button projet" onclick="ClickProjet(this);">
                 <img src="./resources/sqlBlanc.png" alt="logo sql">
                 Base de donnée
             </button>
-            <button class="special-button" onclick="testClick(this);">
+            <button class="special-button projet" onclick="ClickProjet(this);">
                 <img src="./resources/webBlanc.png" alt="logo web">
                 Web
             </button>
 
-            <button class="special-button" onclick="testClick(this);">
+            <button class="special-button projet" onclick="ClickProjet(this);">
                 <img src="./resources/termine.png" alt="logo terminé">
                 Terminé
             </button>
 
-            <button class="special-button" onclick="testClick(this);">
+            <button class="special-button projet" onclick="ClickProjet(this);">
                 <img src="./resources/encours.png" alt="logo encours">
                 En Cours
             </button>
@@ -121,7 +121,7 @@
                 <p> Création d’un Agenda Python vers HTML à l'aide d’une librairie “www” (Créé par un Professeur), cet Agenda permet d’ajouter des informations chaque jour de la semaine entre 8h et 20h</p>
                 
                 <p class="gras"> Illustration :</p>
-                <img src="./resources/projets/agenda.png" alt="Agenda">
+                <img class="illustration" src="./resources/projets/agenda.png" alt="Agenda">
                 <button class="special-button" onclick="window.open('https://github.com/ThibaultLombart/agenda', '_blank');">
                     <img src="./resources/github.png" alt="Logo Github">
                     Go on Github
@@ -165,7 +165,7 @@
                 <p> Création d'un plugin Minecraft en Java avec Gradle.Le plugin a un systeme multi-monetaire en liaison avec une base de donnée MySQL, permettant le stockage des trois monnaies différentes et des commandes en lien avec le systeme.</p>
                 
                 <p class="gras"> Illustration :</p>
-                <img src="./resources/projets/anotherworld.png" alt="Plugin Minecraft">
+                <img class="illustration" src="./resources/projets/anotherworld.png" alt="Plugin Minecraft">
                 <button class="special-button" onclick="window.open('https://github.com/ThibaultLombart/AnotherWorldPlugin', '_blank');">
                     <img src="./resources/github.png" alt="Logo Github">
                     Go on Github
@@ -205,15 +205,136 @@
                 <p> Création d'un site web Vitrine Responsive en HTML/CSS avec un formulaire de Contact en PHP. J'ai utilisé des gridbox, flexbox et les animations natives au css.</p>
                 
                 <p class="gras"> Illustration :</p>
-                <img src="./resources/projets/mclenergies.png" alt="Photo site web">
+                <img class="illustration" src="./resources/projets/mclenergies.png" alt="Photo site web">
                 <button class="special-button" onclick="window.open('https://mclenergies.fr', '_blank');">
                     <img src="./resources/webBlanc.png" alt="Logo Site">
                     Go on Website
                 </button>
             </div>
 
+            <div class="case web personnel termine">
+                <h3>Conception d'un site web Portfolio</h3>
+
+                <p>Date : Juillet 2023</p>
+
+                <p class="gras">Type(s) : </p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="./resources/webBlanc.png" alt="logo Web">
+                        Web
+                    </div>
+                </div>
+
+                <p class="gras">Projet :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="./resources/personnelBlanc.png" alt="logo personnel">
+                        Personnel
+                    </div>
+                </div>
+
+                <p class="gras">Etat :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="./resources/termine.png" alt="logo Terminé">
+                        Terminé
+                    </div>
+                </div>
+
+                <p class="gras"> Descriptif Court :</p>
+                <p> Conception d'un site web Portfolio Responsive en HTML/CSS avec script JavaScript. J'ai utilisé des flexbox et les animations natives au css.</p>
+                
+                <p class="gras"> Illustration :</p>
+                <img class="illustration" src="./resources/projets/portfolio.png" alt="Photo site web">
+                <button class="special-button" onclick="window.open('https://github.com/ThibaultLombart/portfolio', '_blank');">
+                    <img src="./resources/github.png" alt="Logo Github">
+                    Go on Github
+                </button>
+            </div>
+
 
         </article>
     </section>
+
+    <section id="competences">
+        <h2>Mes Compétences</h2>
+
+        <div class="conteneur-competences">
+            <div class="case-comp">
+                <h3>Web</h3>
+                <div class="case-comp-image">
+                    <img src="/resources/JavaScript.png" alt="JavaScript">
+                    <img src="/resources/HTML.png" alt="HTML">
+                    <img src="/resources/CSS.png" alt="CSS">
+                </div>
+            </div>
+
+            <div class="case-comp">
+                <h3>Base de donnée</h3>
+                <div class="case-comp-image">
+                    <img src="/resources/sqlBlanc.png" alt="BDD">
+                </div>
+            </div>
+
+            <div class="case-comp">
+                <h3>Programmation</h3>
+                <div class="case-comp-image">
+                    <img src="/resources/javaBlanc.png" alt="Java">
+                    <img src="/resources/pythonBlanc.png" alt="Python">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="conteneur-competences">
+            <div class="case-comp">
+                <h3>Outils</h3>
+                <div class="case-comp-image">
+                    <img src="/resources/INTELLIJ.png" alt="Intellij IDEA">
+                    <img src="/resources/VISUAL.png" alt="Visual Studio">
+                    <img src="/resources/ECLIPSE.png" alt="Eclipse">
+                    <img src="/resources/github.png" alt="Github">
+                    <img src="/resources/GITLAB.png" alt="Gitlab">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <h2> Contact & Informations</h2>
+        <div class="cartes">
+
+            <div class="item"> 
+                <h3> Mail </h3>
+                <a href="mailto:contact@thibault-lombart.com">contact@thibault-lombart.com</a> 
+            </div>
+
+            <div class="item"> 
+                <h3> Numéro de téléphone </h3>
+                <p> 07 82 17 00 76</p> 
+            </div>
+
+            <div class="item"> 
+                <h3> Linkedin </h3>
+                <a href="https://www.linkedin.com/in/thibault-lombart/" target="_blank">https://www.linkedin.com/in/thibault-lombart/</a>
+            </div>
+
+            <div class="item"> 
+                <h3> Github </h3>
+                <a href="https://github.com/ThibaultLombart" target="_blank">https://github.com/ThibaultLombart</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer>
+        <section class="copyright">
+          <h4> Copyright © 2023 | Tous droits reservés</h4>
+          <h4> Hébergé sur O2Switch </h4>
+          <a href="mentionslegales/mentionslegales.html">Mentions Légales</a>
+        </section>
+    </footer>
 </body>
 </html>

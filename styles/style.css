@@ -142,7 +142,6 @@ section{
 .flexbottom{
   display: flex;
   flex-direction: row;
-  align-items: auto;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
@@ -269,8 +268,124 @@ section{
   margin-bottom: -3px;
 }
 
+.illustration{
+  border-style: solid;
+  border-color: var(--third-color);
+  border-width: 2px;
+}
+
 .gras{
   font-weight: bold;
+}
+
+/* ---------------------- Compétences ---------------------- */
+#competences{
+  margin: auto;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: var(--third-color);
+  border-width: 2px;
+  border-radius: 15px;
+  max-width: 75vw;
+  padding: 15px;
+}
+
+.conteneur-competences{
+  max-width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.case-comp{
+  text-align: center;
+  max-width: 100%;
+}
+
+.case-comp h3{
+  font-size: 25px;
+}
+
+.case-comp-image{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  width: 100%;
+  justify-content:space-around;
+  gap: 20px;
+}
+
+.case-comp-image img{
+  width: 15%;
+}
+
+/* ---------------------- Contact ---------------------- */
+#contact{
+  width: 95%;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--fourth-color);
+}
+
+.cartes{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  padding-bottom: 15px;
+}
+
+.item{
+  text-align: center;
+  width: 50%;
+}
+
+a{
+  color: white;
+}
+
+/* ---------------------- Footer ---------------------- */
+
+footer{
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+}
+
+.copyright{
+  background-color: #202225;
+  text-align: center;
+  padding: 25px;
+}
+
+.copyright h4{
+  margin: 0;
+}
+
+/* ---------------------- Mentions Légales ---------------------- */
+#mentionlegale {
+  padding: 20px;
+}
+
+#mentionlegale h1{
+  font-size: 50px;
+}
+
+#mentionlegale h2{
+  font-size: 40px;
+}
+
+#mentionlegale p{
+  font-size: 20px;
+  margin: 0px;
+}
+
+#mentionlegale .special-button{
+  margin-top: 20px;
 }
 
 /* ---------------------- BreakPoints ---------------------- */
@@ -291,6 +406,10 @@ section{
 
   .case{
     width: 90%;
+  }
+
+  .case-comp-image img{
+    width: 35%;
   }
 }
 

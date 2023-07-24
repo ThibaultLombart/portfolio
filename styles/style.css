@@ -16,6 +16,10 @@ body{
     --fifth-color: #ECECEC;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 section{
     display: grid;
     place-items: center;
@@ -410,6 +414,10 @@ footer{
 
   .case-comp-image img{
     width: 35%;
+  }
+
+  .item{
+    width: 90%;
   }
 }
 

@@ -102,6 +102,16 @@ section{
   width: 100vw;
 }
 
+#first-projets{
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  justify-content:center;
+}
+
+
 #first p {
     font-size: 30px;
     color: var(--fifth-color);
@@ -192,12 +202,30 @@ section{
   border-width: 2px;
 }
 
+#projets-projets{
+  background-color: var(--main-color);
+  margin-left: auto;
+  margin-right: auto;
+  width: 95vw;
+  
+  padding: 10px;
+}
+
+#projets-projets .special-button{
+  margin-top: 15px;
+}
+
 .selection{
   display: flex;
   gap: 30px;
   flex-direction: row;
   flex-wrap:wrap;
   width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: var(--third-color);
+  border-width: 2px;
 }
 
 .special-button img{
@@ -215,10 +243,17 @@ section{
   width: 80%;
   gap: 30px;
   justify-content: center;
-  height: 60vh;
-  overflow: auto;
   flex-wrap: wrap;
 }
+
+.case-total-projets{
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 .case{
   border-style: solid;

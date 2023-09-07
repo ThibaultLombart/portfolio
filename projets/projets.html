@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="FR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script defer src="../scripts/app.js"></script>
+    <link rel="icon" type="image/png" href="../resources/favicon.png" />
+    <title>Projets - Lombart Thibault</title>
+</head>
+<body>
+    <section id="first-projets">
+        <a href="../index.html"><img src="../resources/favicon.png" alt="logo"></a>
+        <h1>
+            Mes Projets
+        </h1>
+    </section>
+    <section id="projets-projets">
+        <article class="selection">
+            <button class="special-button projet clicked" onclick="ClickProjet(this);">
+                Tout
+            </button>
+
+            <button class="special-button projet" onclick="ClickProjet(this);">
+                <img src="../resources/javaBlanc.png" alt="logo java">
+                Java
+            </button>
+            <button class="special-button projet" onclick="ClickProjet(this);">
+                <img src="../resources/pythonBlanc.png" alt="logo python">
+                Python
+            </button>
+
+            <button class="special-button projet" onclick="ClickProjet(this);">
+                <img src="../resources/sqlBlanc.png" alt="logo sql">
+                Base de donnée
+            </button>
+            <button class="special-button projet" onclick="ClickProjet(this);">
+                <img src="../resources/webBlanc.png" alt="logo web">
+                Web
+            </button>
+        </article>
+        <article class="case-total-projets">
+
+            <div class="case python web scolaire termine">
+                <h3>Conception d'un Agenda</h3>
+
+                <p>Date : Janvier 2023</p>
+
+                <p class="gras">Type(s) : </p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/pythonBlanc.png" alt="logo Python">
+                        Python
+                    </div>
+                    <div class="type">
+                        <img src="../resources/webBlanc.png" alt="logo Web">
+                        Web
+                    </div>
+                </div>
+
+                <p class="gras">Projet :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/scolaireBlanc.png" alt="logo Scolaire">
+                        Scolaire
+                    </div>
+                </div>
+
+                <p class="gras">Etat :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/termine.png" alt="logo terminé">
+                        Terminé
+                    </div>
+                </div>
+
+                <p class="gras"> Descriptif Court :</p>
+                <p> Création d’un Agenda Python vers HTML à l'aide d’une librairie “www” (Créé par un Professeur), cet Agenda permet d’ajouter des informations chaque jour de la semaine entre 8h et 20h</p>
+                
+                <p class="gras"> Illustration :</p>
+                <img class="illustration" src="../resources/projets/agenda.png" alt="Agenda">
+                <button class="special-button" onclick="window.open('https://github.com/ThibaultLombart/agenda', '_blank');">
+                    <img src="../resources/github.png" alt="Logo Github">
+                    Go on Github
+                </button>
+            </div>
+
+            <div class="case java sql personnel encours">
+                <h3>Conception d'un plugin Minecraft</h3>
+
+                <p>Date : Mars 2023 - Actuellement</p>
+
+                <p class="gras">Type(s) : </p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/javaBlanc.png" alt="logo Java">
+                        Java
+                    </div>
+                    <div class="type">
+                        <img src="../resources/sqlBlanc.png" alt="logo SQL">
+                        Base de Donnée
+                    </div>
+                </div>
+
+                <p class="gras">Projet :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/personnelBlanc.png" alt="logo personnel">
+                        Personnel
+                    </div>
+                </div>
+
+                <p class="gras">Etat :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/encours.png" alt="logo En Cours">
+                        En Cours
+                    </div>
+                </div>
+
+                <p class="gras"> Descriptif Court :</p>
+                <p> Création d'un plugin Minecraft en Java avec Gradle.Le plugin a un systeme multi-monetaire en liaison avec une base de donnée MySQL, permettant le stockage des trois monnaies différentes et des commandes en lien avec le systeme.</p>
+                
+                <p class="gras"> Illustration :</p>
+                <img class="illustration" src="../resources/projets/anotherworld.png" alt="Plugin Minecraft">
+                <button class="special-button" onclick="window.open('https://github.com/ThibaultLombart/AnotherWorldPlugin', '_blank');">
+                    <img src="../resources/github.png" alt="Logo Github">
+                    Go on Github
+                </button>
+            </div>
+
+            <div class="case web personnel termine">
+                <h3>Conception d'un site web Vitrine pour une Entreprise</h3>
+
+                <p>Date : Septembre 2022</p>
+
+                <p class="gras">Type(s) : </p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/webBlanc.png" alt="logo Web">
+                        Web
+                    </div>
+                </div>
+
+                <p class="gras">Projet :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/personnelBlanc.png" alt="logo personnel">
+                        Personnel
+                    </div>
+                </div>
+
+                <p class="gras">Etat :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/termine.png" alt="logo Terminé">
+                        Terminé
+                    </div>
+                </div>
+
+                <p class="gras"> Descriptif Court :</p>
+                <p> Création d'un site web Vitrine Responsive en HTML/CSS avec un formulaire de Contact en PHP. J'ai utilisé des gridbox, flexbox et les animations natives au css.</p>
+                
+                <p class="gras"> Illustration :</p>
+                <img class="illustration" src="../resources/projets/mclenergies.png" alt="Photo site web">
+                <button class="special-button" onclick="window.open('https://mclenergies.fr', '_blank');">
+                    <img src="../resources/webBlanc.png" alt="Logo Site">
+                    Go on Website
+                </button>
+            </div>
+
+            <div class="case web personnel termine">
+                <h3>Conception d'un site web Portfolio</h3>
+
+                <p>Date : Juillet 2023</p>
+
+                <p class="gras">Type(s) : </p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/webBlanc.png" alt="logo Web">
+                        Web
+                    </div>
+                </div>
+
+                <p class="gras">Projet :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/personnelBlanc.png" alt="logo personnel">
+                        Personnel
+                    </div>
+                </div>
+
+                <p class="gras">Etat :</p>
+                <div class="type-total">
+                    <div class="type">
+                        <img src="../resources/termine.png" alt="logo Terminé">
+                        Terminé
+                    </div>
+                </div>
+
+                <p class="gras"> Descriptif Court :</p>
+                <p> Conception d'un site web Portfolio Responsive en HTML/CSS avec script JavaScript. J'ai utilisé des flexbox et les animations natives au css.</p>
+                
+                <p class="gras"> Illustration :</p>
+                <img class="illustration" src="../resources/projets/portfolio.png" alt="Photo site web">
+                <button class="special-button" onclick="window.open('https://github.com/ThibaultLombart/portfolio', '_blank');">
+                    <img src="../resources/github.png" alt="Logo Github">
+                    Go on Github
+                </button>
+            </div>
+
+
+        </article>
+        <button class="special-button" onclick="window.open('../index.html');">
+            Retourner sur la page principale
+        </button>
+    </section>
+</body>
+</html>
